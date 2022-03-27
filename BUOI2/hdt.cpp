@@ -8,8 +8,7 @@ class  soPhuc{
 				cout <<"Nhap phan thuc: ";
 				cin >> pt;
 				cout <<"Nhap phan ao: ";
-				cin >> pa;
-			
+				cin >> pa;		
 		}
 		void Xuat(){
 			cout <<"\nA = "<<pt<<" + "<<" *j"<<endl;
@@ -21,7 +20,7 @@ class  soPhuc{
 			return pa;
 		}
 };
-int main(int argc, char *argv[])
+int main()
 {
 	soPhuc  a[2];
 	for(int i = 0; i < 2; i++){
