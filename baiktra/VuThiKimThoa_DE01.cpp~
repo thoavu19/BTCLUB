@@ -93,6 +93,7 @@ class MAYBAY :public PTGT{
 		{
 			PTGT::Xuat();
 			cout<<endl;
+		}
 			
 };
 
@@ -114,6 +115,5 @@ int main()
 		a[i].Xuat();
 		cout<<endl;
 	}
-	
 	return 0;
 }
